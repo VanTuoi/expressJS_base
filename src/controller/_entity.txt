@@ -1,0 +1,11 @@
+CREATE TABLE user (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  fullName VARCHAR(50) NOT NULL,
+  userName VARCHAR(50) NOT NULL,
+  password VARCHAR(200) NOT NULL,
+  gender ENUM('Male', 'Female') DEFAULT 'Male',
+  email VARCHAR(50) NOT NULL,
+  phone VARCHAR(10) NOT NULL,
+  address JSON NOT NULL,
+  status ENUM('Normal', 'Block') DEFAULT 'Normal'
+);

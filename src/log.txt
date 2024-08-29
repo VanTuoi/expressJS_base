@@ -123,3 +123,7 @@
 ::1 - - [25/Aug/2024:12:17:51 +0000] "GET /api/manager/mongo/users HTTP/1.1" 500 12 "-" "PostmanRuntime/7.41.1"
 ::1 - - [25/Aug/2024:12:18:26 +0000] "GET /api/manager/mongo/users HTTP/1.1" 200 362 "-" "PostmanRuntime/7.41.1"
 ::1 - - [25/Aug/2024:12:19:42 +0000] "GET /api/manager/mongo/users HTTP/1.1" 200 362 "-" "PostmanRuntime/7.41.1"
+::1 - - [29/Aug/2024:09:52:11 +0000] "POST /api/auth/login HTTP/1.1" 200 306 "-" "PostmanRuntime/7.41.2"
+::1 - - [29/Aug/2024:09:52:21 +0000] "POST /api/auth/login HTTP/1.1" 200 306 "-" "PostmanRuntime/7.41.2"
+::1 - - [29/Aug/2024:09:52:46 +0000] "POST /api/auth/login HTTP/1.1" 200 306 "-" "PostmanRuntime/7.41.2"
+::1 - - [29/Aug/2024:09:52:49 +0000] "POST /api/auth/login HTTP/1.1" 200 306 "-" "PostmanRuntime/7.41.2"
